@@ -1,4 +1,5 @@
 import React from "react";
+import RetentionCard from "../components/RetentionCard";
 import {
   View,
   Text,
