@@ -8,7 +8,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build:unified": "node scripts/buildUnifiedDataset.mjs"
+    "build:unified": "node scripts/buildUnifiedDataset.mjs",
+    "build:features": "node scripts/buildFeatures.mjs"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.5",
