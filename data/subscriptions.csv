@@ -1,0 +1,13 @@
+user_id,plan_type,renewal_cadence,price_tier,used_discount,downgrade_count,cancellation_count,status,renewed
+u_001,Premium,monthly,standard,false,0,0,active,1
+u_002,Basic,monthly,basic,true,0,1,cancelled,0
+u_003,Premium,annual,standard,false,0,0,active,1
+u_004,Basic,monthly,basic,true,0,0,active,0
+u_005,Premium,annual,premium,false,0,0,active,1
+u_006,Premium,monthly,standard,false,0,0,active,1
+u_007,Basic,monthly,basic,true,1,1,cancelled,0
+u_008,Premium,annual,premium,true,0,0,active,1
+u_009,Basic,monthly,basic,true,0,1,cancelled,0
+u_010,Premium,monthly,standard,false,0,0,active,1
+u_011,Premium,monthly,standard,true,0,0,active,1
+u_012,Basic,monthly,basic,true,0,1,cancelled,0
