@@ -11,7 +11,8 @@
     "build:unified": "node scripts/buildUnifiedDataset.mjs",
     "build:features": "node scripts/buildFeatures.mjs",
     "check:data": "node scripts/checkDataQuality.mjs",
-    "analyze:explore": "node scripts/runExploratoryAnalysis.mjs"
+    "analyze:explore": "node scripts/runExploratoryAnalysis.mjs",
+    "model:train": "node scripts/trainRetentionModel.mjs"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.5",
