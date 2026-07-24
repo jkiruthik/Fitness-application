@@ -1,0 +1,61 @@
+{
+  "model": "Logistic regression (prototype)",
+  "train_users": 8,
+  "holdout_users": 4,
+  "holdout_accuracy": 1,
+  "holdout_auc": 1,
+  "predictions": [
+    {
+      "user_id": "u_009",
+      "actual_retained_d30": 0,
+      "retention_probability": 0.03439474709281489
+    },
+    {
+      "user_id": "u_010",
+      "actual_retained_d30": 1,
+      "retention_probability": 0.9275698696288723
+    },
+    {
+      "user_id": "u_011",
+      "actual_retained_d30": 1,
+      "retention_probability": 0.772572303573368
+    },
+    {
+      "user_id": "u_012",
+      "actual_retained_d30": 0,
+      "retention_probability": 0.05180596664079756
+    }
+  ],
+  "drivers": [
+    {
+      "feature": "completion_rate",
+      "standardized_coefficient": 1.1382895346284834,
+      "direction": "protective"
+    },
+    {
+      "feature": "completed_workouts_30d",
+      "standardized_coefficient": 1.0444909283054968,
+      "direction": "protective"
+    },
+    {
+      "feature": "current_streak_days",
+      "standardized_coefficient": 1.0075059998727924,
+      "direction": "protective"
+    },
+    {
+      "feature": "days_since_last_workout",
+      "standardized_coefficient": -0.766916806573157,
+      "direction": "risk"
+    },
+    {
+      "feature": "used_discount",
+      "standardized_coefficient": -0.7009933584782401,
+      "direction": "risk"
+    },
+    {
+      "feature": "is_annual_plan",
+      "standardized_coefficient": 0.5339013435135228,
+      "direction": "protective"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+rank,feature,standardized_coefficient,direction
+1,completion_rate,1.1383,protective
+2,completed_workouts_30d,1.0445,protective
+3,current_streak_days,1.0075,protective
+4,days_since_last_workout,-0.7669,risk
+5,used_discount,-0.7010,risk
+6,is_annual_plan,0.5339,protective
