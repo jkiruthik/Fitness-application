@@ -1,21 +1,26 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { currentUserId, streakHistory, subscriptions, users, workoutLogs } from "../data/sampleData";
 
 export default function HomeScreen() {
+  const user = users.find((item) => item.id === currentUserId);
+  const streak = streakHistory.find((item) => item.userId === currentUserId);
+  const subscription = subscriptions.find((item) => item.userId === currentUserId);
+  const latestWorkout = workoutLogs.find((item) => item.userId === currentUserId && item.status === "completed");
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Fitness Tracker</Text>
-      <Text style={styles.greeting}>Good morning 👋</Text>
+      <Text style={styles.greeting}>Good morning, {user.name} 👋</Text>
 
       <View style={styles.card}>
         <Text style={styles.cardTitle}>🔥 Current Streak</Text>
-        <Text style={styles.bigText}>12 days</Text>
+        <Text style={styles.bigText}>{streak.currentStreakDays} days</Text>
       </View>
 
       <View style={styles.card}>
         <Text style={styles.cardTitle}>Today&apos;s Workout</Text>
-        <Text style={styles.workout}>Push Workout</Text>
-        <Text style={styles.bodyText}>Duration: 45 min</Text>
+        <Text style={styles.workout}>{latestWorkout.workoutType} Workout</Text>
+        <Text style={styles.bodyText}>Duration: {latestWorkout.durationMinutes} min</Text>
         <TouchableOpacity accessibilityRole="button" style={styles.button}>
           <Text style={styles.buttonText}>Start Workout</Text>
         </TouchableOpacity>
@@ -25,6 +30,11 @@ export default function HomeScreen() {
         <Text style={styles.cardTitle}>Weekly Progress</Text>
         <View style={styles.progressBar}><View style={styles.progress} /></View>
         <Text style={styles.bodyText}>60% completed</Text>
+      </View>
+
+      <View style={styles.card}>
+        <Text style={styles.cardTitle}>Subscription</Text>
+        <Text style={styles.bodyText}>{subscription.status === "active" ? subscription.priceTier : "Cancelled"} · {subscription.renewalCadence}</Text>
       </View>
     </ScrollView>
   );
