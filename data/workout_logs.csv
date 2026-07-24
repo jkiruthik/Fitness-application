@@ -1,0 +1,41 @@
+workout_id,user_id,completed_at,duration_minutes,completion_status,workout_type
+w_001,u_001,2026-07-03T06:30:00Z,42,completed,Push
+w_002,u_001,2026-07-07T06:25:00Z,50,completed,Legs
+w_003,u_001,2026-07-12T06:40:00Z,38,completed,Cardio
+w_004,u_001,2026-07-20T06:30:00Z,45,completed,Push
+w_005,u_001,2026-07-22T06:15:00Z,50,completed,Legs
+w_006,u_002,2026-07-03T18:00:00Z,30,skipped,Cardio
+w_007,u_002,2026-07-11T18:15:00Z,28,completed,Cardio
+w_008,u_002,2026-07-18T18:00:00Z,25,skipped,Full Body
+w_009,u_003,2026-07-02T17:30:00Z,35,completed,Cardio
+w_010,u_003,2026-07-08T17:20:00Z,40,completed,Push
+w_011,u_003,2026-07-14T17:30:00Z,42,completed,Legs
+w_012,u_003,2026-07-21T17:30:00Z,35,completed,Cardio
+w_013,u_003,2026-07-23T17:30:00Z,40,completed,Push
+w_014,u_004,2026-07-06T20:00:00Z,22,completed,Cardio
+w_015,u_004,2026-07-17T20:00:00Z,25,skipped,Cardio
+w_016,u_005,2026-07-01T07:00:00Z,55,completed,Full Body
+w_017,u_005,2026-07-05T07:00:00Z,60,completed,Push
+w_018,u_005,2026-07-10T07:00:00Z,58,completed,Legs
+w_019,u_005,2026-07-15T07:00:00Z,60,completed,Full Body
+w_020,u_005,2026-07-22T07:00:00Z,60,completed,Full Body
+w_021,u_006,2026-07-04T05:45:00Z,32,completed,Cardio
+w_022,u_006,2026-07-10T05:50:00Z,36,completed,Push
+w_023,u_006,2026-07-16T05:45:00Z,35,completed,Legs
+w_024,u_006,2026-07-23T05:45:00Z,34,completed,Cardio
+w_025,u_007,2026-07-02T21:00:00Z,20,skipped,Full Body
+w_026,u_007,2026-07-19T21:00:00Z,24,completed,Cardio
+w_027,u_008,2026-07-03T06:00:00Z,48,completed,Push
+w_028,u_008,2026-07-09T06:00:00Z,46,completed,Legs
+w_029,u_008,2026-07-16T06:00:00Z,50,completed,Full Body
+w_030,u_008,2026-07-23T06:00:00Z,45,completed,Cardio
+w_031,u_009,2026-07-05T19:00:00Z,25,skipped,Cardio
+w_032,u_009,2026-07-20T19:00:00Z,28,completed,Cardio
+w_033,u_010,2026-07-06T06:30:00Z,45,completed,Push
+w_034,u_010,2026-07-13T06:30:00Z,45,completed,Legs
+w_035,u_010,2026-07-20T06:30:00Z,45,completed,Full Body
+w_036,u_011,2026-07-08T07:15:00Z,35,completed,Cardio
+w_037,u_011,2026-07-15T07:15:00Z,38,completed,Push
+w_038,u_011,2026-07-22T07:15:00Z,40,completed,Legs
+w_039,u_012,2026-07-14T20:30:00Z,25,skipped,Cardio
+w_040,u_012,2026-07-22T20:30:00Z,25,completed,Cardio

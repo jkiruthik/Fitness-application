@@ -1,0 +1,13 @@
+user_id,signup_date,acquisition_channel,country,retained_d30
+u_001,2026-04-02,Organic,IN,1
+u_002,2026-04-17,Referral,IN,0
+u_003,2026-05-04,Paid Social,IN,1
+u_004,2026-05-21,Organic,IN,0
+u_005,2026-06-01,Referral,IN,1
+u_006,2026-06-09,Paid Search,IN,1
+u_007,2026-06-15,Organic,IN,0
+u_008,2026-06-22,Influencer,IN,1
+u_009,2026-06-30,Paid Social,IN,0
+u_010,2026-07-03,Organic,IN,1
+u_011,2026-07-08,Referral,IN,1
+u_012,2026-07-12,Paid Search,IN,0
